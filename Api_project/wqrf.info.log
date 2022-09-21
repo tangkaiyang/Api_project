@@ -11247,3 +11247,437 @@ AttributeError: 'DB_api_shop_list' object has no attribute 'name'
 [2022-09-21 13:55:04,345] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
 [2022-09-21 13:55:06,251] [INFO] "GET /admin/ HTTP/1.1" 200 10075
 [2022-09-21 13:55:06,368] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:50:45,773] [INFO] Watching for file changes with StatReloader
+[2022-09-21 14:50:49,715] [INFO] "GET /add_project/ HTTP/1.1" 200 2314
+[2022-09-21 14:51:06,403] [ERROR] Internal Server Error: /look_log/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 307, in look_log
+    L = fp.readlines()[-1000:]
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa2 in position 1725: illegal multibyte sequence
+[2022-09-21 14:51:06,406] [ERROR] "GET /look_log/ HTTP/1.1" 500 81744
+[2022-09-21 14:51:19,406] [ERROR] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:19,406] [INFO] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:19,407] [WARNING] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:19,414] [INFO] "GET /help/ HTTP/1.1" 200 7741
+[2022-09-21 14:51:19,618] [INFO] "GET /static/help_css/css/normalize.css HTTP/1.1" 200 1825
+[2022-09-21 14:51:19,629] [INFO] "GET /static/help_css/css/style.css HTTP/1.1" 200 60288
+[2022-09-21 14:51:19,637] [INFO] "GET /static/help_css/img/Bild01.jpg HTTP/1.1" 200 58327
+[2022-09-21 14:51:19,638] [INFO] "GET /static/help_css/css/htmleaf-demo.css HTTP/1.1" 200 6051
+[2022-09-21 14:51:19,661] [INFO] "GET /static/help_css/img/profoto-collapsible-reflectors-rossella-vanon-fashion-photography-img_2013-600x900.jpg HTTP/1.1" 200 82894
+[2022-09-21 14:51:19,972] [INFO] "GET /static/help_css/img/cfs-models-003-683x1024.jpg HTTP/1.1" 200 39956
+[2022-09-21 14:51:19,973] [INFO] "GET /static/help_css/img/Tayna16-12_90574-2.jpg HTTP/1.1" 200 53648
+[2022-09-21 14:51:19,976] [INFO] "GET /static/help_css/img/CJ19-02_40732-1.jpg HTTP/1.1" 200 81288
+[2022-09-21 14:51:19,981] [INFO] "GET /static/help_css/img/fashion_1.jpg HTTP/1.1" 200 182105
+[2022-09-21 14:51:19,982] [INFO] "GET /static/help_css/img/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg HTTP/1.1" 200 92760
+[2022-09-21 14:51:20,029] [INFO] "GET /static/help_css/img/aaaa.png HTTP/1.1" 200 2394325
+[2022-09-21 14:51:20,173] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:51:31,251] [ERROR] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:31,252] [INFO] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:31,253] [WARNING] admin 刚刚进入了帮助页面
+[2022-09-21 14:51:31,255] [INFO] "GET /help/ HTTP/1.1" 200 7741
+[2022-09-21 14:51:31,787] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:51:42,656] [WARNING]  试图进入权限管理模块，已被固定最高级权限拦截！
+[2022-09-21 14:51:42,657] [INFO] "GET /get_power_list/ HTTP/1.1" 200 2
+[2022-09-21 14:51:44,609] [WARNING]  试图进入权限管理模块，已被固定最高级权限拦截！
+[2022-09-21 14:51:44,610] [INFO] "GET /add_power/ HTTP/1.1" 200 2
+[2022-09-21 14:53:08,870] [INFO] Watching for file changes with StatReloader
+[2022-09-21 14:53:16,678] [WARNING]  试图进入权限管理模块，已被固定最高级权限拦截！
+[2022-09-21 14:53:16,679] [INFO] "GET /add_power/ HTTP/1.1" 200 2
+[2022-09-21 14:53:27,193] [INFO] "GET /get_real_time_datas/ HTTP/1.1" 200 108
+[2022-09-21 14:53:27,304] [ERROR] Internal Server Error: /get_tj_datas/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 107, in get_tj_datas
+    your_project = DB_project_list.objects.filter(creater=userID)[0]
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+[2022-09-21 14:53:27,308] [ERROR] "GET /get_tj_datas/ HTTP/1.1" 500 81459
+[2022-09-21 14:53:31,483] [INFO] "GET /logout/ HTTP/1.1" 302 0
+[2022-09-21 14:53:31,497] [INFO] "GET / HTTP/1.1" 200 4941
+[2022-09-21 14:53:31,660] [INFO] "GET /static/wqrf_login_css/assets/css/demo.css HTTP/1.1" 200 13571
+[2022-09-21 14:53:31,663] [INFO] "GET /static/wqrf_login_css/assets/js/jquery-1.11.0.min.js HTTP/1.1" 200 96383
+[2022-09-21 14:53:31,665] [INFO] "GET /static/greensock-js/src/minified/TweenMax.min.js HTTP/1.1" 200 115897
+[2022-09-21 14:53:31,674] [INFO] "GET /static/wqrf_login_css/assets/js/demo.js HTTP/1.1" 200 4549
+[2022-09-21 14:53:31,999] [INFO] "GET /static/favicon.ico HTTP/1.1" 200 4286
+[2022-09-21 14:53:33,029] [INFO] "GET /static/wqrf_login_css/assets/img/close.svg HTTP/1.1" 200 794
+[2022-09-21 14:53:33,031] [INFO] "GET /static/wqrf_login_css/assets/img/m-open-close.png HTTP/1.1" 200 37755
+[2022-09-21 14:53:33,032] [INFO] "GET /static/wqrf_login_css/assets/img/landscape.png HTTP/1.1" 200 71492
+[2022-09-21 14:53:33,033] [INFO] "GET /static/wqrf_login_css/assets/img/m-close.png HTTP/1.1" 200 52947
+[2022-09-21 14:53:33,037] [INFO] "GET /static/wqrf_login_css/assets/img/xxx.gif HTTP/1.1" 200 18645
+[2022-09-21 14:53:33,037] [INFO] "GET /static/wqrf_login_css/assets/img/m-signup.png HTTP/1.1" 200 37187
+[2022-09-21 14:53:39,692] [INFO] "POST /login_action/ HTTP/1.1" 302 0
+[2022-09-21 14:53:39,702] [INFO] "GET /index/ HTTP/1.1" 200 1027
+[2022-09-21 14:53:39,760] [INFO] "GET /static/css/app.21c557db.css HTTP/1.1" 200 3561
+[2022-09-21 14:53:39,763] [INFO] "GET /static/css/chunk-vendors.dd50ba92.css HTTP/1.1" 200 240819
+[2022-09-21 14:53:39,780] [INFO] "GET /static/js/app.2d79e261.js HTTP/1.1" 200 93683
+[2022-09-21 14:53:39,789] [INFO] "GET /static/js/chunk-vendors.45181865.js HTTP/1.1" 200 936641
+[2022-09-21 14:53:40,026] [INFO] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 28200
+[2022-09-21 14:53:40,029] [INFO] "GET /get_real_time_datas/ HTTP/1.1" 200 107
+[2022-09-21 14:53:40,098] [ERROR] Internal Server Error: /get_tj_datas/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 107, in get_tj_datas
+    your_project = DB_project_list.objects.filter(creater=userID)[0]
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\db\models\query.py", line 318, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+[2022-09-21 14:53:40,104] [ERROR] "GET /get_tj_datas/ HTTP/1.1" 500 82081
+[2022-09-21 14:53:40,132] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:53:44,015] [ERROR] Internal Server Error: /get_power_list/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:44,016] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:53:44,022] [ERROR] "GET /get_power_list/ HTTP/1.1" 500 85005
+[2022-09-21 14:53:45,179] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:45,182] [ERROR] "GET /add_power/ HTTP/1.1" 500 88835
+[2022-09-21 14:53:46,845] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:46,849] [ERROR] "GET /add_power/ HTTP/1.1" 500 89075
+[2022-09-21 14:53:47,735] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:47,739] [ERROR] "GET /add_power/ HTTP/1.1" 500 89315
+[2022-09-21 14:53:48,612] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:48,616] [ERROR] "GET /add_power/ HTTP/1.1" 500 89555
+[2022-09-21 14:53:49,250] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:49,253] [ERROR] "GET /add_power/ HTTP/1.1" 500 89795
+[2022-09-21 14:53:50,795] [ERROR] Internal Server Error: /add_power/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 371, in add_power
+    return get_power_list(request)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 342, in get_power_list
+    L = fp.readlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x9a in position 569: illegal multibyte sequence
+[2022-09-21 14:53:50,799] [ERROR] "GET /add_power/ HTTP/1.1" 500 90035
+[2022-09-21 14:53:54,219] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:53:54,266] [ERROR] Internal Server Error: /look_log/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 386, in diy_power
+    return default_power(request,path)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 410, in default_power
+    exec('r = %s(request)' % path)
+  File "<string>", line 1, in <module>
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views.py", line 307, in look_log
+    L = fp.readlines()[-1000:]
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa2 in position 1725: illegal multibyte sequence
+[2022-09-21 14:53:54,271] [ERROR] "GET /look_log/ HTTP/1.1" 500 82237
+[2022-09-21 14:53:55,442] [INFO] "GET /get_user_detail/ HTTP/1.1" 200 73
+[2022-09-21 14:53:55,449] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:53:55,461] [INFO] "GET /static/user_avatar/userImg_1.jpg HTTP/1.1" 200 320416
+[2022-09-21 14:53:58,462] [ERROR] admin 刚刚进入了帮助页面
+[2022-09-21 14:53:58,463] [INFO] admin 刚刚进入了帮助页面
+[2022-09-21 14:53:58,463] [WARNING] admin 刚刚进入了帮助页面
+[2022-09-21 14:53:58,465] [INFO] "GET /help/ HTTP/1.1" 200 7741
+[2022-09-21 14:53:58,728] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:54:00,728] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:54:05,924] [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11402
+[2022-09-21 14:54:06,012] [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2022-09-21 14:54:06,023] [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-09-21 14:54:06,026] [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-09-21 14:54:06,026] [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2022-09-21 14:54:06,035] [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-09-21 14:54:06,035] [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2022-09-21 14:54:06,042] [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-09-21 14:54:06,042] [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-09-21 14:54:06,046] [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2022-09-21 14:54:06,047] [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-09-21 14:54:06,105] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-09-21 14:54:06,129] [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2022-09-21 14:54:06,134] [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2022-09-21 14:54:06,151] [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2022-09-21 14:54:06,182] [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2022-09-21 14:54:06,229] [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-09-21 14:54:06,297] [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2022-09-21 14:54:06,298] [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2022-09-21 14:54:06,300] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-09-21 14:54:06,300] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-09-21 14:54:06,300] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-09-21 14:54:06,412] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:54:08,227] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:55:48,964] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:55:48,967] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:55:51,650] [INFO] "GET /get_env_list/ HTTP/1.1" 200 120
+[2022-09-21 14:55:51,662] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:55:52,840] [INFO] "GET /get_monitor_list/ HTTP/1.1" 200 595
+[2022-09-21 14:55:52,876] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:55:55,662] [INFO] "GET /add_monitor/ HTTP/1.1" 200 737
+[2022-09-21 14:55:57,897] [INFO] "GET /change_monitor_status/?id=14 HTTP/1.1" 200 736
+[2022-09-21 14:55:58,851] [INFO] "GET /change_monitor_status/?id=14 HTTP/1.1" 200 737
+[2022-09-21 14:55:59,529] [INFO] "GET /change_monitor_status/?id=14 HTTP/1.1" 200 736
+[2022-09-21 14:56:25,082] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:56:25,093] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:56:34,210] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:56:34,211] [INFO] "GET /get_api_shop_list/ HTTP/1.1" 200 1566
+[2022-09-21 14:56:39,275] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:56:39,276] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:56:42,391] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:56:42,398] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:56:55,718] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:56:55,724] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:56:58,640] [INFO] "GET /get_env_list/ HTTP/1.1" 200 120
+[2022-09-21 14:56:58,644] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:02,981] [INFO] "GET /get_monitor_list/ HTTP/1.1" 200 736
+[2022-09-21 14:57:02,981] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:04,371] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:04,371] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:57:05,992] [INFO] "GET /get_project_detail/?id=85 HTTP/1.1" 200 260
+[2022-09-21 14:57:06,007] [INFO] "GET /get_apis/?project_id=85 HTTP/1.1" 200 2
+[2022-09-21 14:57:06,008] [INFO] "GET /get_dck/?project_id=85 HTTP/1.1" 200 4
+[2022-09-21 14:57:06,009] [INFO] "GET /get_env_list/ HTTP/1.1" 200 120
+[2022-09-21 14:57:06,052] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:10,842] [INFO] "GET /run/?project_id=85 HTTP/1.1" 200 4
+[2022-09-21 14:57:14,344] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2314
+[2022-09-21 14:57:14,345] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:18,224] [INFO] "GET /get_dck/?project_id=80 HTTP/1.1" 200 6
+[2022-09-21 14:57:18,224] [INFO] "GET /get_project_detail/?id=80 HTTP/1.1" 200 385
+[2022-09-21 14:57:18,224] [INFO] "GET /get_env_list/ HTTP/1.1" 200 120
+[2022-09-21 14:57:18,231] [INFO] "GET /get_apis/?project_id=80 HTTP/1.1" 200 480
+[2022-09-21 14:57:18,236] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:23,655] [INFO] "GET /get_useable_par/?api_id=148&project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:25,290] [INFO] "POST /save_api/?project_id=80 HTTP/1.1" 200 481
+[2022-09-21 14:57:30,998] [ERROR] Internal Server Error: /run/
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\admin\AppData\Roaming\Python\Python310\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\0诺诺\Projects\Api_project\Api_project\Api_app\views_api.py", line 262, in run
+    api = DB_apis.objects.filter(id=int(dck[i])).values()[0] #api此时是个字典
+ValueError: invalid literal for int() with base 10: '[]'
+[2022-09-21 14:57:31,000] [ERROR] "GET /run/?project_id=80 HTTP/1.1" 500 67805
+[2022-09-21 14:57:31,473] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:31,977] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:32,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:32,967] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:33,464] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:33,775] [INFO] "GET /set_dck/?project_id=80&dck=148 HTTP/1.1" 200 7
+[2022-09-21 14:57:33,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:34,471] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:34,964] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:36,834] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:36,865] [INFO] "GET /run/?project_id=80 HTTP/1.1" 200 5
+[2022-09-21 14:57:36,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:37,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:37,971] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:38,025] [INFO] "GET /get_useable_par/?api_id=148&project_id=80 HTTP/1.1" 200 0
+[2022-09-21 14:57:38,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:38,964] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:39,470] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:39,721] [INFO] "POST /save_api/?project_id=80 HTTP/1.1" 200 481
+[2022-09-21 14:57:39,985] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:40,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:40,983] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:41,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:43,313] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:43,322] [INFO] "GET /run/?project_id=80 HTTP/1.1" 200 5
+[2022-09-21 14:57:43,477] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:43,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:44,473] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:46,841] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:46,886] [INFO] "GET /run/?project_id=80 HTTP/1.1" 200 5
+[2022-09-21 14:57:46,967] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:47,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:47,982] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:48,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:48,968] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:49,486] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:49,976] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:50,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:50,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:51,478] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:51,985] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:52,471] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:52,971] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:53,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:53,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:54,477] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:54,970] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:55,464] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:55,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:56,048] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2333
+[2022-09-21 14:57:56,056] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:57:56,479] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:57,040] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:57,473] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:57,980] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:58,464] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:58,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:59,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:57:59,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:00,465] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:00,963] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:01,467] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:01,964] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:02,225] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:58:02,230] [INFO] "GET /get_user_detail/ HTTP/1.1" 200 73
+[2022-09-21 14:58:02,467] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:02,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:03,467] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:03,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:04,477] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:04,986] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:05,494] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:05,978] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:06,484] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:06,989] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:07,464] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:07,835] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:58:07,882] [INFO] "GET /get_project_list/ HTTP/1.1" 200 2333
+[2022-09-21 14:58:07,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:08,485] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:08,987] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:09,496] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:09,985] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:10,491] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:10,981] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:11,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:11,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:12,027] [INFO] "GET /get_monitor_list/ HTTP/1.1" 200 736
+[2022-09-21 14:58:12,030] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:58:12,468] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:12,966] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:13,482] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:13,969] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:14,434] [INFO] "GET /get_api_shop_list/ HTTP/1.1" 200 1566
+[2022-09-21 14:58:14,439] [INFO] "GET /favicon.ico/ HTTP/1.1" 200 0
+[2022-09-21 14:58:14,470] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:14,965] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:15,482] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:15,970] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:16,466] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:16,982] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:17,496] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:17,978] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:18,498] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:18,984] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:19,470] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:19,984] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:20,478] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:21,011] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:21,477] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:21,998] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:22,478] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:22,986] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
+[2022-09-21 14:58:23,471] [INFO] "GET /doing_api/?project_id=80 HTTP/1.1" 200 9
